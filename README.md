@@ -4,5 +4,6 @@
 
 1. [Installation Instructions](INSTALLATION.md)
 1. [The Process](PROCESS.md)
+1. [Structure](STRUCTURE.md)
 1. [Application](APP.md)
 1. [Credits](CREDITS.md)
