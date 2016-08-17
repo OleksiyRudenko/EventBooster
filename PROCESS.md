@@ -83,6 +83,8 @@ is a precedent Friday.
 
 ### Workflow Model
 
+!!!TODO: Confirm subscription/registration
+
 Phases:
  * Initialization
  * Survey - reveal interest if any
