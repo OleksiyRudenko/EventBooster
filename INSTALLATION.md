@@ -2,9 +2,11 @@
 
 `[2016-07-24] - latest major update`
 
+# Installation
+
 [**[Documentation Root](README.md)**]
 
-# Installation under USBWebserver
+## Installation under USBWebserver
 
 Valid with USB WebServer v.8.6.
 
@@ -20,13 +22,13 @@ is similar.
  1. Set-up server document root & database (see below)
  1. Launch USB Webserver and tap `Localhost` button
 
-## Setting-up USBWebserver
+### Setting-up USBWebserver
 
-### settings/php.ini
+#### settings/php.ini
 
 Uncomment and set timezone. E.g. `date.timezone = Europe/Kiev`
 
-### settings/httpd.conf
+#### settings/httpd.conf
 
 Add as a last section:
 ```
