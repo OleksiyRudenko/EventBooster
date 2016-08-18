@@ -69,25 +69,22 @@ In context of Event:
  * Skipper - paid but didn't attend event
 
 User states and transitions inbetween:
-![Alt text](http://g.gravizo.com/g?
-@startuml;
-actor User;
-participant "First Class" as A;
-participant "Second Class" as B;
-participant "Last Class" as C;
-User -> A: DoWork;
-activate A;
-A -> B: Create Request;
-activate B;
-B -> C: DoWork;
-activate C;
-C --> B: WorkDone;
-destroy C;
-B --> A: Request Created;
-deactivate B;
-A --> User: Done;
-deactivate A;
-@enduml
+
+![User States Diagram](http://g.gravizo.com/g?
+digraph G {
+    aize ="4,4";
+    User -> Invitee [label="Invitation sent"];
+    Invitee -> Subscriber [label="Subscribed for news"];
+    Subscriber -> Registered [label="Registered for attendance"];
+    Registered -> Attendee [label="Admittance paid"];
+    Attendee -> Graduate [label="Attended"];
+    Attendee -> Skipper [label="Not attended",color=red];
+    Registered -> Pending [label="Z count reached",style=dotted];
+    Invitee -> Rejector [style=dotted];
+    Subscriber -> Rejector [style=dotted];
+    Registered -> Rejector [style=dotted];
+    Rejector -> User [style=dotted];
+  }
 )
 
 Attendees Count Aliases:
