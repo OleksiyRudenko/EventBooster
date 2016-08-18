@@ -29,14 +29,14 @@ of view.
 |   |   |-- config.php                  // web-site configuration
 |   |   |-- index.html                  // compiled public entry-point
 |   |   |-- manage.php                  // private entry-point - invokes the app
-|   |   |-- components/                 // global components for build
+|   |   |-- build/                      // global components for build
 |   |   |-- css/                        // global styles
 |   |   |-- fonts/                      // global fonts
 |   |   |-- media/                      // global media
 |   |   |-- js/                         // global helper scripts
 |   |   |-- event1/                 // event-specific folder
 |   |   |   |-- index.html              // compiled event landing page
-|   |   |   |-- component/              // event-specific components for build
+|   |   |   |-- build/                  // event-specific components for build
 |   |   |   |-- css/                    // event-specific styles
 |   |   |   |-- fonts/                  // event-specific fonts
 |   |   |   |-- media/                  // event-specific media
