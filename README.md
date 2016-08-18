@@ -2,11 +2,11 @@
 
 `[2016-08-17] - latest major update`
 
-1. [The Process](PROCESS.md)
-1. [Structure](STRUCTURE.md)
-1. [Installation Instructions](INSTALLATION.md)
-1. [Application](APP.md)
-1. [Credits](CREDITS.md)
+1. [The Process](doc/PROCESS.md)
+1. [Structure](doc/STRUCTURE.md)
+1. [Installation Instructions](doc/INSTALLATION.md)
+1. [Application](doc/APP.md)
+1. [Credits](doc/CREDITS.md)
 
 ### P.S.
 

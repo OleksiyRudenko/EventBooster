@@ -4,7 +4,7 @@
 
 # Structure
 
-[**[Documentation Root](README.md)**]
+[**[Documentation Root](../README.md)**]
 
 ## Table of Contents
  1. [Web-site Directory Layout](#web-site-directory-layout)

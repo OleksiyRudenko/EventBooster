@@ -4,7 +4,7 @@
 
 # Credits
 
-[**[Documentation Root](README.md)**]
+[**[Documentation Root](../README.md)**]
 
 Example Landing Page is based on
 [Stylish Portfolio](http://startbootstrap.com/template-overviews/stylish-portfolio/),

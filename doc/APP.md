@@ -4,7 +4,7 @@
 
 # Application
 
-[**[Documentation Root](README.md)**]
+[**[Documentation Root](../README.md)**]
 
 ## Table of Contents
 

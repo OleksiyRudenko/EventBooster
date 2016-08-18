@@ -4,7 +4,7 @@
 
 # Installation
 
-[**[Documentation Root](README.md)**]
+[**[Documentation Root](../README.md)**]
 
 ## Installation under USBWebserver
 
