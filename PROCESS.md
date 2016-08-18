@@ -105,7 +105,7 @@ is a precedent Friday.
  * `avg(-x)` - average daily sales over last `x` days
  * `avg(S)` - average daily sales since day `S`
  * `avg(Normal)` - average daily sales since Normal sales phase start
- * `avg(Late)` - average daily sales since Normal sales phase start
+ * `avg(Late)` - average daily sales since Late sales phase start
 
 [**[back-to-top](#table-of-contents)**]
 
