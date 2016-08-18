@@ -68,11 +68,12 @@ In context of Event:
  * Graduate - attended event
  * Skipper - paid but didn't attend event
 
-`V` - absolute required minimum count(Attendees)
-`W` - pre-last call threshold
-`X` - optimal count(Attendees)
-`Y` - last call threshold
-`Z` - maximum count(Attendees)
+Attendees Count Aliases:
+- `V` - absolute required minimum count(Attendees)
+- `W` - pre-last call threshold
+- `X` - optimal count(Attendees)
+- `Y` - last call threshold
+- `Z` - maximum count(Attendees)
 
 **Dates/Milestones**
  * Day `D` - Day of Event
