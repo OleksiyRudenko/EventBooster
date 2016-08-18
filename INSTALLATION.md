@@ -2,6 +2,8 @@
 
 `[2016-07-24] - latest major update`
 
+[**[Documentation Root](README.md)**]
+
 # Installation under USBWebserver
 
 Valid with USB WebServer v.8.6.

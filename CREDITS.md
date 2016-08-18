@@ -4,6 +4,8 @@
 
 # Credits
 
+[**[Documentation Root](README.md)**]
+
 Example Landing Page is based on
 [Stylish Portfolio](http://startbootstrap.com/template-overviews/stylish-portfolio/),
 which is a responsive, one page portfolio theme for [Bootstrap](http://getbootstrap.com/) created by [Start Bootstrap](http://startbootstrap.com/). The theme features multiple content sections with an off canvas navigation menu.

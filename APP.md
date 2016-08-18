@@ -4,6 +4,8 @@
 
 # Application
 
+[**[Documentation Root](README.md)**]
+
 ## Table of Contents
 
 1. [Application Structure](#application-structure)

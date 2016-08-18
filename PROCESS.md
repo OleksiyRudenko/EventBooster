@@ -4,6 +4,8 @@
 
 # Event Process
 
+[**[Documentation Root](README.md)**]
+
 ## Table of Contents
 
  1. [Process Overview](#process-overview)
