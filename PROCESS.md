@@ -6,21 +6,27 @@
 
 ## Table of Contents
 
-1. [The Process](#the-process)
-    1. [Process Overview](#process-overview)
-    1. [Definitions](#definitions)
-    1. [Workflow Model](#workflow-model)
+ 1. [Process Overview](#process-overview)
+ 1. [Definitions](#definitions)
+ 1. [Workflow Model](#workflow-model)
+    1. [Initialization](#initialization)
+    1. [Survey](#survey)
+    1. [Sales Campaign](#sales-campaign)
+    1. [Postponement](#postponement)
+    1. [Cancellation](#cancellation)
+    1. [D-Day](#d-day)
+    1. [Post Event](#post-event)
+ 1. [Pricing](#pricing)
+ 1. [Email Actions Reference](#email-actions-reference)
 
-## The Process
-
-### Overview
+## Overview
 
 One may want to run a probably recurring Workshop. It might be reasonable to run a survey prior
 to any principal activities. The prospects database shall be used if any. Any respondents become
 prospects. Any involved individual may reject further communications on the promoted event as well
 as on any future events. However, any interest restores individual as a prospect.
 
-Pricing differentiation may be employed (EarlyBird, Normal, Late, OnSite/NightOwl).
+Pricing differentiation can be applied (EarlyBird, Normal, Late, OnSite/NightOwl).
 
 Promo codes can be used to boost sales. Promo codes can be published by attendees only.
 Promo code provides discount for limited/unlimited number of attendee's affiliates.
@@ -39,7 +45,7 @@ to learn about IT support provided.
 
 [**[back-to-top](#table-of-contents)**]
 
-### Definitions
+## Definitions
 
 **Individual**
 
@@ -81,7 +87,7 @@ is a precedent Friday.
 
 [**[back-to-top](#table-of-contents)**]
 
-### Workflow Model
+## Workflow Model
 
 !!!TODO: Confirm subscription/registration
 
@@ -97,13 +103,13 @@ Phases:
  * D-Day - on day D
  * PostEvent - on day after day D
 
-#### Initialization
+### Initialization
  * Define Host, Admin
  * Define re Event: topic and components, location(city), duration,
     { `U`, `W`, `X`, `Y`, `Z`}, external resources (web-site, page on social network)
  * Add Invitees to the Event context
     
-#### Survey
+### Survey
  * Define Survey questions
  * Make a landing page (cover, targeting, modules, extras, testimonials/gallery,
     {when,where,seats,price}.proposed, author, `subscribe` = `subscribe.survey|surveyNotice`)
@@ -119,7 +125,7 @@ Phases:
     - email confirmation: thank you, on city-mismatch -> discontinueThisCity
     - notify Host
     
-#### Sales Campaign
+### Sales Campaign
  * Define re Event: date and time, location, prices
  * Create event notices on social networks / venues sites
  * Update Landing Page: ... refs to public events, `subscribe` = `subscribe.register`
@@ -183,7 +189,7 @@ Timeline Milestones:
         - `Z-avg(-3)`: _possibly sales boost techniques_
     - If count(Attendees) > `V`: reminder
 
-#### Postponement
+### Postponement
 
 If there is resource among Subscribed|Registered to achieve targets:
  * Registered:
@@ -205,7 +211,7 @@ If no resource among Registered to achieve targets:
      participate, please, register and pay
  * Attendee: + refund instruction, voucher option + discount
 
-#### Cancellation
+### Cancellation
  * Web-site:
     - `buttonAction` = Keep Updated
     - `subscribe` = `subscribe.keepUpdated`
@@ -214,7 +220,7 @@ If no resource among Registered to achieve targets:
  * Attendee: + refund instruction, voucher option + discount
  **FINAL STATE**
 
-#### Sales Closed
+### Sales Closed
  * Web-site:
     - add banner 'WE ARE COMPLETE for this time'
     - `buttonAction` = is!Attendee: Keep Updated
@@ -224,14 +230,14 @@ If no resource among Registered to achieve targets:
     confirmation yet, please, url.contactMe
  * Attendee: we are complete!; looking forward to seeing you
 
-#### D-Day
+### D-Day
  * Web-site:
     - add banner 'WE ARE COMPLETE for this time'
     - `buttonAction` = is!Attendee: Keep Updated
     - `subscribe` = `subscribe.keepUpdated`
  * Attendee: looking forward to seeing you today
 
-#### PostEvent
+### PostEvent
  * Web-site:
     - downloads
     - feedback summary => testaments
@@ -242,19 +248,7 @@ If no resource among Registered to achieve targets:
  * Skipper : itsapity, voucher-as-a-compensation
  * Others : see how it's been : url.#Testaments
 
-#### Appendix: Email Actions Reference
-- discontinueThis = discontinue further emails on this event: *=>Rejector
-- discontinueThisCity = as above but for a city mismatch reason: *=>Rejector, store City
-- discontinueAll = discontinue all similar emails: *=>Rejector&Refugee
-- contactMe = personal contact request: email to confirm telephone. Request types:
-    - i've paid but still receive emails as if I wouldn't have had
-    - [want money back]
-    - other questions
-- remindLater = remind later
-
-[**[back-to-top](#table-of-contents)**]
-
-### Pricing
+## Pricing
 
 Sales stages: EarlyBird, Normal, Late, OnSite/NightOwl
 
@@ -285,5 +279,17 @@ Offer discount vouchers on Normal and Late stages only. Then `TicketPrice[Normal
 Event Promotion Management fees options:
  1. We take money from Attendees between `W` and `Y` + 70% of ticket price difference until `Z`
  2. Fixed fee (included into Event costs) + 70% of ticket price difference from between `Y` and `Z`
+
+[**[back-to-top](#table-of-contents)**]
+
+## Email Actions Reference
+- discontinueThis = discontinue further emails on this event: *=>Rejector
+- discontinueThisCity = as above but for a city mismatch reason: *=>Rejector, store City
+- discontinueAll = discontinue all similar emails: *=>Rejector&Refugee
+- contactMe = personal contact request: email to confirm telephone. Request types:
+    - i've paid but still receive emails as if I wouldn't have had
+    - [want money back]
+    - other questions
+- remindLater = remind later
 
 [**[back-to-top](#table-of-contents)**]
