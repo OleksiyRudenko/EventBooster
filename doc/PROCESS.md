@@ -61,12 +61,19 @@ In global context:
 In context of Event:
  * Invitee - invited by host to visit landing page/registration
  * Subscriber - subscribed for event launch notice
- * Rejector - rejected further notices at any stage. Reasons stored
  * Registered - registered while not paid yet
+ * Pending - didn't reject promo and payment reminders 
+   but `Z` has been reached before individual became Attendee
  * Attendee - admittance paid
- * Pending - didn't reject but `Z` reached before individual became Attendee
  * Graduate - attended event
  * Skipper - paid but didn't attend event
+
+Individual may also reject any further promo and payment reminder
+emailing 
+(set noPresalesReminder property), which doesn't affect status advancement 
+(e.g. Registered->Attendee)
+and any other communications
+(payment/registration confirmation, tickets, stop-sales notice etc.)
 
 User states and transitions inbetween:
 
@@ -80,10 +87,6 @@ digraph G {
     Attendee -> Graduate [label="Attended"];
     Attendee -> Skipper [label="Not attended",color=red];
     Registered -> Pending [label="Z count reached",style=dotted];
-    Invitee -> Rejector [style=dotted];
-    Subscriber -> Rejector [style=dotted];
-    Registered -> Rejector [style=dotted];
-    Rejector -> User [style=dotted];
   }
 )
 

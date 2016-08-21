@@ -11,6 +11,7 @@
 ### P.S.
 
 Following tools were used to describe and visualize diagrams:
-  * Visualization [gravizo](http://gravizo.com/) / [gravizo@github](https://github.com/TLmaK0/gravizo)
+  * Visualization [gravizo](http://gravizo.com/) / 
+    [gravizo@github](https://github.com/TLmaK0/gravizo)
   * [PlantUML](http://plantuml.com/)
   * [DOT (graph description language)](https://en.wikipedia.org/wiki/DOT_(graph_description_language))
