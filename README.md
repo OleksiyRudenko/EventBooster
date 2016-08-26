@@ -5,7 +5,9 @@
 1. [The Process](doc/PROCESS.md)
 1. [Structure](doc/STRUCTURE.md)
 1. [Installation Instructions](doc/INSTALLATION.md)
-1. [Application](doc/APP.md)
+1. Applications
+   1. [Management Application](doc/APP.md)
+   1. [Event SPA](doc/APP-Event.md)
 1. [Credits](doc/CREDITS.md)
 
 ### P.S.
