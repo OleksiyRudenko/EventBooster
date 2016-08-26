@@ -75,6 +75,10 @@ BE requests processed via AJAX.
 Typical user actions:
  * Native login
  * OAuth login/authentication
+ 
+SPA shall also implement JS-supported reaction on user actions, like replacement of
+sections (e.g. 'Thank you!' in place of 'Register' after registration is being completed 
+successfully).
 
 [**[back-to-top](#table-of-contents)**]
 
