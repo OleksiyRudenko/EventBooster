@@ -38,7 +38,7 @@ Event SPA is accessed via `http(s)://domain.com/event-url-id/`
 
 **Directory layout**
 
-```
+```txt
 event1/                 // event-specific folder
 |-- index.*.html            // compiled locale event landing pages
 |-- build/                  // event-specific components for build
@@ -117,7 +117,7 @@ expected to be referred to by the script in `index.php` and includes.
 
 **Plain `$c` structure**
 
-```
+```php
 c.*.php:
     $c = [
         'heading1' => 'Welcome!',
@@ -134,7 +134,7 @@ template:
 
 **Well developed `$c` structure**
 
-```
+```php
 c.*.php:
     $c = [
         'global' => [ // these are used in any section
@@ -171,7 +171,7 @@ Event specific variable properties are available to the template script
 with `$v` variable. Values can be displayed directly or used in logical statements.
 
 Example:
-```
+```php
 template:
     <BUTTON VALUE="<?=$v['phase']=='Survey'?'subscribe':'register'?>">
         <?=$v['phase']=='Survey'?
