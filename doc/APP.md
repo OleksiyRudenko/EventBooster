@@ -17,6 +17,7 @@
     1. [Public: Attendee Related Behaviour](#public-attendee-related-behaviour)
     1. [Public: Back-End Data Related Behaviour](#public-back-end-data-related-behaviour)
     1. [Private: Management](#private-management)
+1. [Surveys](#surveys)
 
 ## Application Structure
 
@@ -254,5 +255,14 @@ On actionSubscribeForNextEvent
 
 ### Private: Management
 
+
+[**[back-to-top](#table-of-contents)**]
+
+## Surveys
+
+Surveys supported with static (compiled) event SPA:
+ - user input processed by BE
+ - survey status and responses (per event / per user / per survey) are stored 
+   in LocalStorage/Cookies for to allow SPA scripts arranging views accordingly
 
 [**[back-to-top](#table-of-contents)**]
